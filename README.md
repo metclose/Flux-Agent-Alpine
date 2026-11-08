@@ -12,7 +12,7 @@
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/metclose/Flux-Agent-Alpine/main/install.sh | \
-  sh -s -- 'https://你的面板地址' '你的节点密钥'
+  sh -s -- '你的面板地址' '你的节点密钥'
 ```
 
 ## 自定义名称和目录（可选）
@@ -23,5 +23,5 @@ curl -fsSL https://raw.githubusercontent.com/metclose/Flux-Agent-Alpine/main/ins
 ```bash
 curl -fsSL https://raw.githubusercontent.com/metclose/Flux-Agent-Alpine/main/install.sh | \
   BIN_NAME=自定义二进制名 SVC_NAME=自定义服务名 INSTALL_DIR=自定义目录 \
-  sh -s -- 'https://你的面板地址' '你的节点密钥'
+  sh -s -- '你的面板地址' '你的节点密钥'
 ```
